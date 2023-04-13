@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89BFDF9829E6E98A00D74B07 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BFDF9729E6E98A00D74B07 /* SplashScreenView.swift */; };
+		89F7783A29E592C700DDF927 /* Zarsal_CumlelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7783929E592C700DDF927 /* Zarsal_CumlelerApp.swift */; };
+		89F7783C29E592C700DDF927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7783B29E592C700DDF927 /* ContentView.swift */; };
+		89F7783E29E592C900DDF927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F7783D29E592C900DDF927 /* Assets.xcassets */; };
+		89F7784129E592C900DDF927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F7784029E592C900DDF927 /* Preview Assets.xcassets */; };
+		89F7784B29E592C900DDF927 /* Zarsal_CumlelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7784A29E592C900DDF927 /* Zarsal_CumlelerTests.swift */; };
+		89F7785529E592C900DDF927 /* Zarsal_CumlelerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7785429E592C900DDF927 /* Zarsal_CumlelerUITests.swift */; };
+		89F7785729E592C900DDF927 /* Zarsal_CumlelerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7785629E592C900DDF927 /* Zarsal_CumlelerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89F7784729E592C900DDF927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89F7782E29E592C700DDF927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F7783529E592C700DDF927;
+			remoteInfo = "Zarsal Cumleler";
+		};
+		89F7785129E592C900DDF927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89F7782E29E592C700DDF927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F7783529E592C700DDF927;
+			remoteInfo = "Zarsal Cumleler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89BFDF9729E6E98A00D74B07 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		89F7783629E592C700DDF927 /* Zarsal Cumleler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zarsal Cumleler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F7783929E592C700DDF927 /* Zarsal_CumlelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zarsal_CumlelerApp.swift; sourceTree = "<group>"; };
+		89F7783B29E592C700DDF927 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89F7783D29E592C900DDF927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89F7784029E592C900DDF927 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89F7784629E592C900DDF927 /* Zarsal CumlelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zarsal CumlelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F7784A29E592C900DDF927 /* Zarsal_CumlelerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zarsal_CumlelerTests.swift; sourceTree = "<group>"; };
+		89F7785029E592C900DDF927 /* Zarsal CumlelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zarsal CumlelerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F7785429E592C900DDF927 /* Zarsal_CumlelerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zarsal_CumlelerUITests.swift; sourceTree = "<group>"; };
+		89F7785629E592C900DDF927 /* Zarsal_CumlelerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zarsal_CumlelerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89F7783329E592C700DDF927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F7784329E592C900DDF927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F7784D29E592C900DDF927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89F7782D29E592C700DDF927 = {
+			isa = PBXGroup;
+			children = (
+				89F7783829E592C700DDF927 /* Zarsal Cumleler */,
+				89F7784929E592C900DDF927 /* Zarsal CumlelerTests */,
+				89F7785329E592C900DDF927 /* Zarsal CumlelerUITests */,
+				89F7783729E592C700DDF927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89F7783729E592C700DDF927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F7783629E592C700DDF927 /* Zarsal Cumleler.app */,
+				89F7784629E592C900DDF927 /* Zarsal CumlelerTests.xctest */,
+				89F7785029E592C900DDF927 /* Zarsal CumlelerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89F7783829E592C700DDF927 /* Zarsal Cumleler */ = {
+			isa = PBXGroup;
+			children = (
+				89F7783929E592C700DDF927 /* Zarsal_CumlelerApp.swift */,
+				89F7783B29E592C700DDF927 /* ContentView.swift */,
+				89BFDF9729E6E98A00D74B07 /* SplashScreenView.swift */,
+				89F7783D29E592C900DDF927 /* Assets.xcassets */,
+				89F7783F29E592C900DDF927 /* Preview Content */,
+			);
+			path = "Zarsal Cumleler";
+			sourceTree = "<group>";
+		};
+		89F7783F29E592C900DDF927 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89F7784029E592C900DDF927 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89F7784929E592C900DDF927 /* Zarsal CumlelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				89F7784A29E592C900DDF927 /* Zarsal_CumlelerTests.swift */,
+			);
+			path = "Zarsal CumlelerTests";
+			sourceTree = "<group>";
+		};
+		89F7785329E592C900DDF927 /* Zarsal CumlelerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89F7785429E592C900DDF927 /* Zarsal_CumlelerUITests.swift */,
+				89F7785629E592C900DDF927 /* Zarsal_CumlelerUITestsLaunchTests.swift */,
+			);
+			path = "Zarsal CumlelerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89F7783529E592C700DDF927 /* Zarsal Cumleler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F7785A29E592C900DDF927 /* Build configuration list for PBXNativeTarget "Zarsal Cumleler" */;
+			buildPhases = (
+				89F7783229E592C700DDF927 /* Sources */,
+				89F7783329E592C700DDF927 /* Frameworks */,
+				89F7783429E592C700DDF927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zarsal Cumleler";
+			productName = "Zarsal Cumleler";
+			productReference = 89F7783629E592C700DDF927 /* Zarsal Cumleler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89F7784529E592C900DDF927 /* Zarsal CumlelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F7785D29E592C900DDF927 /* Build configuration list for PBXNativeTarget "Zarsal CumlelerTests" */;
+			buildPhases = (
+				89F7784229E592C900DDF927 /* Sources */,
+				89F7784329E592C900DDF927 /* Frameworks */,
+				89F7784429E592C900DDF927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F7784829E592C900DDF927 /* PBXTargetDependency */,
+			);
+			name = "Zarsal CumlelerTests";
+			productName = "Zarsal CumlelerTests";
+			productReference = 89F7784629E592C900DDF927 /* Zarsal CumlelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89F7784F29E592C900DDF927 /* Zarsal CumlelerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F7786029E592C900DDF927 /* Build configuration list for PBXNativeTarget "Zarsal CumlelerUITests" */;
+			buildPhases = (
+				89F7784C29E592C900DDF927 /* Sources */,
+				89F7784D29E592C900DDF927 /* Frameworks */,
+				89F7784E29E592C900DDF927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F7785229E592C900DDF927 /* PBXTargetDependency */,
+			);
+			name = "Zarsal CumlelerUITests";
+			productName = "Zarsal CumlelerUITests";
+			productReference = 89F7785029E592C900DDF927 /* Zarsal CumlelerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89F7782E29E592C700DDF927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					89F7783529E592C700DDF927 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					89F7784529E592C900DDF927 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 89F7783529E592C700DDF927;
+					};
+					89F7784F29E592C900DDF927 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 89F7783529E592C700DDF927;
+					};
+				};
+			};
+			buildConfigurationList = 89F7783129E592C700DDF927 /* Build configuration list for PBXProject "Zarsal Cumleler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89F7782D29E592C700DDF927;
+			productRefGroup = 89F7783729E592C700DDF927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89F7783529E592C700DDF927 /* Zarsal Cumleler */,
+				89F7784529E592C900DDF927 /* Zarsal CumlelerTests */,
+				89F7784F29E592C900DDF927 /* Zarsal CumlelerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89F7783429E592C700DDF927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F7784129E592C900DDF927 /* Preview Assets.xcassets in Resources */,
+				89F7783E29E592C900DDF927 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F7784429E592C900DDF927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F7784E29E592C900DDF927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89F7783229E592C700DDF927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F7783C29E592C700DDF927 /* ContentView.swift in Sources */,
+				89F7783A29E592C700DDF927 /* Zarsal_CumlelerApp.swift in Sources */,
+				89BFDF9829E6E98A00D74B07 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F7784229E592C900DDF927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F7784B29E592C900DDF927 /* Zarsal_CumlelerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F7784C29E592C900DDF927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F7785729E592C900DDF927 /* Zarsal_CumlelerUITestsLaunchTests.swift in Sources */,
+				89F7785529E592C900DDF927 /* Zarsal_CumlelerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89F7784829E592C900DDF927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89F7783529E592C700DDF927 /* Zarsal Cumleler */;
+			targetProxy = 89F7784729E592C900DDF927 /* PBXContainerItemProxy */;
+		};
+		89F7785229E592C900DDF927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89F7783529E592C700DDF927 /* Zarsal Cumleler */;
+			targetProxy = 89F7785129E592C900DDF927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89F7785829E592C900DDF927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89F7785929E592C900DDF927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89F7785B29E592C900DDF927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zarsal Cumleler/Preview Content\"";
+				DEVELOPMENT_TEAM = 65LG28A5FY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zarsal Cümleler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ozgurmercan.Zarsal-Cumleler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		89F7785C29E592C900DDF927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zarsal Cumleler/Preview Content\"";
+				DEVELOPMENT_TEAM = 65LG28A5FY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zarsal Cümleler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ozgurmercan.Zarsal-Cumleler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		89F7785E29E592C900DDF927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65LG28A5FY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ozgurmercan.Zarsal-CumlelerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zarsal Cumleler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zarsal Cumleler";
+			};
+			name = Debug;
+		};
+		89F7785F29E592C900DDF927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65LG28A5FY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ozgurmercan.Zarsal-CumlelerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zarsal Cumleler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zarsal Cumleler";
+			};
+			name = Release;
+		};
+		89F7786129E592C900DDF927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65LG28A5FY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ozgurmercan.Zarsal-CumlelerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zarsal Cumleler";
+			};
+			name = Debug;
+		};
+		89F7786229E592C900DDF927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65LG28A5FY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ozgurmercan.Zarsal-CumlelerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zarsal Cumleler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89F7783129E592C700DDF927 /* Build configuration list for PBXProject "Zarsal Cumleler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F7785829E592C900DDF927 /* Debug */,
+				89F7785929E592C900DDF927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F7785A29E592C900DDF927 /* Build configuration list for PBXNativeTarget "Zarsal Cumleler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F7785B29E592C900DDF927 /* Debug */,
+				89F7785C29E592C900DDF927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F7785D29E592C900DDF927 /* Build configuration list for PBXNativeTarget "Zarsal CumlelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F7785E29E592C900DDF927 /* Debug */,
+				89F7785F29E592C900DDF927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F7786029E592C900DDF927 /* Build configuration list for PBXNativeTarget "Zarsal CumlelerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F7786129E592C900DDF927 /* Debug */,
+				89F7786229E592C900DDF927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89F7782E29E592C700DDF927 /* Project object */;
+}
